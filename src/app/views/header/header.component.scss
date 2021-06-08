@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header{
+  background-color: rgba(39, 42, 56, 0.5);;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    padding: 0 20px 0 13px;
+  }
+  &__filters{
+    min-height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #181B25;
+    padding: 0 21px;
+  }
+}
+
+.titles{
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  color: #D7E2F2;
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 11px;
+}
+
+.nav-buttons{
+  display: flex;
+  min-width: 60px;
+  justify-content: space-between;
+}
+
+.filter{
+  display: flex;
+  &__select{
+    background: rgba(18, 21, 30, 0.5);
+    border: 1px solid rgba(96, 101, 128, 0.25);
+    color: #8C99B2;
+    margin-right: 15px;
+    padding: 0 15px 0 10px;
+  }
+  &-search{
+    padding: 0 0 0 15px;
+    min-height: 28px;
+    min-width: 150px;
+    background: rgba(18, 21, 30, 0.5);
+    border: 1px solid rgba(96, 101, 128, 0.25);
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #8C99B2;
+  }
+}
+
+.button{
+  min-width: 13px;
+  min-height: 13px;
+  display: block;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+
+  &__group{
+    background-image: url("../../../assets/groupNotActive.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    &_active{
+      background-image: url("../../../assets/groupActive.svg");
+    }
+  }
+
+  &__table{
+    background-image: url("../../../assets/tableActive.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    &_notActive{
+      background-image: url("../../../assets/tableNotActive.svg");
+    }
+  }
+
+
+  &-filter{
+    min-width: 150px;
+    min-height: 30px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #8C99B2;
+    background: rgba(48, 53, 73, 0.5);
+    border-radius: 1px;
+  }
+  &-filter:hover{
+    color: #FFFFFF;
+    background: #0089FF;
+  }
+}
