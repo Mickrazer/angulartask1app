@@ -1,15 +1,21 @@
 ### Проект написан на Angular
 
+https://mickrazer.github.io/angulartask1app/angulartask1app/
+
 ## Страниц имеет два вида отображения:
 Переключение выполняется с помощью иконок в правом верхнем углу.
 
 ### 1. В виде колонки (вид по умолчанию).
 
+<img src="src/assets/default.png" width="700px">
+
 ### 2. В виде таблицы.
+
+<img src="src/assets/notdefault.png" width="700px">
 
 ### Настроенна работа фильтров по состоянию (с использованием реактивного программирования):
 
-
+<img src="src/assets/filter.png" width="700px">
 
 
 # MyApp
