@@ -1,6 +1,6 @@
 ### Проект написан на Angular
 
-https://mickrazer.github.io/angulartask1app/angulartask1app/
+https://mickrazer.github.io/angulartask1app/angulartask1app
 
 ## Страниц имеет два вида отображения:
 Переключение выполняется с помощью иконок в правом верхнем углу.
